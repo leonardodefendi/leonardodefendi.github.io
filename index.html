@@ -8,7 +8,8 @@
     <style>
     body{
         font-family: Verdana, Geneva, Tahoma, sans-serif ;
-        background-color: rgb(150, 140, 140);
+        background-color: rgba(1, 90, 122, 48);
+        color: antiquewhite;
     }
     #apresentacao{
         text-align: center;
@@ -16,13 +17,22 @@
     #biografia, #habilidades, #redes-sociais, #link-externo,#indice{
         text-decoration: underline;
     }
+    img{
+        border-radius: 100%;
+    }
+    .links-externos{
+        color: whitesmoke;
+        text-decoration: none;
+
+
+    }
     </style>
 </head>
 <body>
     <h2 id="indice">Índice</h2>
     <ul>
-        <li><a href="#biografia">O que me levou a programação</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <li class="links-externos"><a href="#biografia">O que me levou a programação</a></li>
+        <li class="links-externos"><a href="#habilidades">Habilidades</a></li>
     <br>
     <div id="apresentacao">
         <img src="./imagens/foto-github.jpeg" alt="Foto Leonardo Defendi" width="200px" >
@@ -54,12 +64,12 @@
    <hr>
     <h3 id="redes-sociais">Minhas redes sociais:</h3>
     <ul>
-        <li><a href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
-        <li><a href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
+        <li class="links-externos"><a href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
+        <li class="links-externos"><a href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
     </ul>
     <hr>
     <h3 id="link-externo"> Links Externos: </h3>
-    <a href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
+    <a class="links-externos"href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
     <hr>
     
 
