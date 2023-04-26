@@ -5,27 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Defendi Prado</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
     <style>
     body{
-        font-family: Verdana, Geneva, Tahoma, sans-serif ;
-        background-color: rgba(1, 90, 122, 48);
-        color: antiquewhite;
+        font-family: 'Montserrat', sans-serif;
     }
     #apresentacao{
         text-align: center;
     }
-    #biografia, #habilidades, #redes-sociais, #link-externo,#indice{
-        text-decoration: underline;
-    }
     img{
         border-radius: 100%;
+    }
+    #indice, .list-indice{
+        font-size: 15px;
+    }
+    .button {
+        border: solid 1px #ccc;
+        background: white;
+        font-size: 13px;
+        color: #555;
+        border-radius: 3px;
+        line-height: 2;
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        min-width: 100px;
+        padding: 0 16px;
+        margin-top: 0px;
+        transition: all 1.2s ease;
+        transform: scale(1);
+    }  
+    .button:hover{
+        background-color: lightgrey;
+        transform: scale(1.05);
+    }
+    .button:active{
+        background-color: rgb(14, 15, 15);
+        
+    }
+    #biografia, #habilidades, #redes-sociais, #indice {
+    display: inline-block;
+    background-color: #ccc;
+    }
+
+
     </style>
 </head>
 <body>
     <h2 id="indice">Índice</h2>
     <ul>
-        <li ><a  href="#biografia">O que me levou a programação</a></li>
-        <li ><a href="#habilidades">Habilidades</a></li>
+        <li class ="list-indice"><a class="button"  href="#biografia">O que me levou a programação</a></li>
+        <li class ="list-indice"><a  class="button" href="#habilidades">Habilidades</a></li>
     <br>
     <div id="apresentacao">
         <img src="./imagens/foto-github.jpeg" alt="Foto Leonardo Defendi" width="200px" >
@@ -35,7 +67,7 @@
         </p>
     </div>
     <hr>
-    <div></div>
+    <div>
         <h2 id="biografia">O que me levou a programação:</h2>
         <p>
             Olá, se você é novo por aqui deixa eu te contar um pouco de como cheguei até este curso da <strong>Trybe</strong>, desde pequeno sempre fui apaixonado por resolver problemas então resolvi optar por uma área de engenharia a qual eu mais me identifiquei foi a Engenharia Civil, durante a minha formação fiz estágio em uma empresa na cidade onde morava (<em>Maringa - PR </em>), onde aprendi muitas coisas sobre a minha área, no entando após a formação veio a dificuldade de arranjar emprego em uma área muito saturada de profissionais, então voltei para minha cidade (<em>Terra Rica - PR</em>), onde fiquei por mais 3 anos trabalhando com auxiliar administrativo em um material de contrução, procurando uma perspectiva de vida melhor, conheci <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Desde o primeiro contato com a Trybe me interessei muito pelo curso, pois já havia tido um pequeno contato com a programação durante a minha formação como engenheiro. E cá estou eu buscando uma nova transição de carreira #VQV.
@@ -43,7 +75,7 @@
     </div>
     <hr>
     <div>
-        <p id="habilidades"><strong>Minhas habilidades:</strong></p>
+        <h3 id="habilidades"><strong>Minhas habilidades:</strong></h3>
         <ul>
             <li>AutoCAD</li>
             <li>Revit</li>
@@ -57,12 +89,12 @@
    <hr>
     <h3 id="redes-sociais">Minhas redes sociais:</h3>
     <ul>
-        <li><a href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
-        <li ><a href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
+        <li><a class="button"  href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
+        <li ><a class="button"  href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
     </ul>
     <hr>
     <h3 id="link-externo"> Links Externos: </h3>
-    <a class="links-externos"href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
+    <a class="button" href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
     <hr>
     
 
