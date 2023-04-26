@@ -1,16 +1,34 @@
+*{
+    margin: 0;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
 #apresentacao{
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
 }
 img{
     border-radius: 100%;
 }
-#indice, .list-indice{
-    font-size: 15px;
+#indice{
+    font-size:20 px;
+    margin-left: 40px;
 }
+
+.foto{
+    background-image: url("./imagens/imagem-logo-trybe.jpeg") ;
+    
+}
+li{
+    list-style-type: none;
+}
+.cabecalho{
+    max-width: 20%;
+}
+
+
 .button {
     border: solid 1px #ccc;
     background: white;
@@ -35,9 +53,9 @@ img{
     background-color: rgb(14, 15, 15);
     
 }
-#biografia, #habilidades, #redes-sociais, #indice {
-display: inline-block;
-background-color: #ccc;
+#biografia, #habilidades, #redes-sociais, #link-externo{
+margin-bottom: 20px;
 }
+
 
 
