@@ -11,7 +11,6 @@
     <style>
     body{
         font-family: 'Montserrat', sans-serif;
-        
     }
     #apresentacao{
         text-align: center;
@@ -22,10 +21,10 @@
     #indice, .list-indice{
         font-size: 15px;
     }
-    #button {
+    .button {
         border: solid 1px #ccc;
         background: white;
-        font-size: 12px;
+        font-size: 13px;
         color: #555;
         border-radius: 3px;
         line-height: 2;
@@ -35,19 +34,30 @@
         min-width: 100px;
         padding: 0 16px;
         margin-top: 0px;
+        transition: all 1.2s ease;
+        transform: scale(1);
+    }  
+    .button:hover{
+        background-color: lightgrey;
+        transform: scale(1.05);
     }
-    #link-externo{
-        margin-bottom: 5px;
+    .button:active{
+        background-color: rgb(14, 15, 15);
+        
+    }
+    #biografia, #habilidades, #redes-sociais, #indice {
+    display: inline-block;
+    background-color: #ccc;
+    }
 
-    }
 
     </style>
 </head>
 <body>
     <h2 id="indice">Índice</h2>
     <ul>
-        <li class ="list-indice"><a  href="#biografia">O que me levou a programação</a></li>
-        <li class ="list-indice"><a href="#habilidades">Habilidades</a></li>
+        <li class ="list-indice"><a class="button"  href="#biografia">O que me levou a programação</a></li>
+        <li class ="list-indice"><a  class="button" href="#habilidades">Habilidades</a></li>
     <br>
     <div id="apresentacao">
         <img src="./imagens/foto-github.jpeg" alt="Foto Leonardo Defendi" width="200px" >
@@ -79,12 +89,12 @@
    <hr>
     <h3 id="redes-sociais">Minhas redes sociais:</h3>
     <ul>
-        <li><a href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
-        <li ><a href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
+        <li><a class="button"  href="https://www.linkedin.com/in/leonardo-defendi-337275189/" target="_blank">Linkedin</a></li>
+        <li ><a class="button"  href="https://github.com/leonardodefendi" target="_blank">Github</a></li>
     </ul>
     <hr>
     <h3 id="link-externo"> Links Externos: </h3>
-    <a id="button" href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
+    <a class="button" href="./imagens/foto-github.jpeg" target="_blanck" >Minha foto de perfil</a>
     <hr>
     
 
