@@ -1,0 +1,43 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#apresentacao{
+    text-align: center;
+}
+img{
+    border-radius: 100%;
+}
+#indice, .list-indice{
+    font-size: 15px;
+}
+.button {
+    border: solid 1px #ccc;
+    background: white;
+    font-size: 13px;
+    color: #555;
+    border-radius: 3px;
+    line-height: 2;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 100px;
+    padding: 0 16px;
+    margin-top: 0px;
+    transition: all 1.2s ease;
+    transform: scale(1);
+}  
+.button:hover{
+    background-color: lightgrey;
+    transform: scale(1.05);
+}
+.button:active{
+    background-color: rgb(14, 15, 15);
+    
+}
+#biografia, #habilidades, #redes-sociais, #indice {
+display: inline-block;
+background-color: #ccc;
+}
+
+
