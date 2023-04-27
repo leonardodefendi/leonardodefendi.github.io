@@ -1,53 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 
 }
-.geral{
-    border: 2px solid red;
+
+.geral {
+    /* border: 2px solid red; */
     max-width: 40%;
-    margin:auto;
+    margin: auto;
     background-color: white;
 }
-.backgroud-geral{
-    background-color:grey;
-    border:2px solid blue;
+
+.backgroud-geral {
+    background-color: grey;
+    /* border:2px solid blue; */
 }
 
 #apresentacao {
     text-align: left;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px;
-}
-img{
-    border-radius: 100%;
-}
-.foto, .cabecalho{ 
-    background-image: url("./imagens/imagem-logo-trybe.jpeg") ;
-    
-}
-li{
-    list-style-type: none;
-}
-.cabecalho{
-    max-width: 100%;
-}
-.secao02{
-    padding: 10px;
-    border: 2px solid orange;
-}
-#habilidades{
-    border: 2px solid green;
-    padding: 10px;
-}
-#habilidades li{
-    font-size: 20px;
 }
 
+img {
+    border-radius: 100%;
+}
+
+.foto,
+.cabecalho {
+    background-image: url("./imagens/imagem-logo-trybe.jpeg");
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.cabecalho {
+    max-width: 100%;
+}
+
+.secao02 {
+    padding: 10px;
+    /* border: 2px solid orange; */
+}
+
+#habilidades {
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+#habilidades li {
+    font-size: 15px;
+}
+
+#redes-sociais {
+    padding: 10px;
+}
 
 .button {
     border: solid 1px #ccc;
@@ -64,14 +78,34 @@ li{
     margin-top: 0px;
     transition: all 1.2s ease;
     transform: scale(1);
-}  
-.button:hover{
+}
+
+.button:hover {
     background-color: lightgrey;
     transform: scale(1.05);
 }
-.button:active{
+
+.button:active {
     background-color: rgb(14, 15, 15);
-}   
+}
 
+.button-redes {
+    /* border: solid 1px #ccc; */
+    /* font-size: 13px; */
+    /* color: #555; */
+    /* line-height: 2; */
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    /* min-width: 100px; */
+    /* padding: 0 16px;
+    margin-top: 0px; */
+    transition: all 0.5s ease;
+    transform: scale(1);
+    padding: 10px;
 
+}
 
+.button-redes:hover {
+    transform: scale(1.2);
+}
