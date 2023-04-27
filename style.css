@@ -6,37 +6,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-
+    color: #5941A9;
+    background-color: #08090A;
+    padding: 0px 0px 60px;
+    font-weight: 800;
 }
 
 .geral {
-    /* border: 2px solid red; */
     max-width: 40%;
     margin: auto;
-    background-color: white;
-}
-
-.backgroud-geral {
-    background-color: grey;
-    /* border:2px solid blue; */
-}
-
-#apresentacao {
+    background-color:#A7A2A9;
+    border-radius: 10px;
+    border: 8px solid #222823 ;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
     text-align: left;
-    /* border: 2px solid blue; */
     padding: 10px;
 }
-
-img {
+h1, h2, h3{
+    color:#34236d;
+}
+.foto img {
     border-radius: 100%;
-}
-
-.foto,
-.cabecalho {
-    background-image: url("./imagens/imagem-logo-trybe.jpeg");
+    left: 50px;
+    border: 3px solid #222823 ;
 
 }
+.secao02 p{
+    margin-top: 10px;
+    text-align: justify;
+}
 
+.foto {
+    text-align: center;
+    margin-bottom: 10px;
+}
 li {
     list-style-type: none;
 }
@@ -53,6 +56,14 @@ li {
 #habilidades {
     /* border: 2px solid green; */
     padding: 10px;
+
+}
+#apresentacao{
+    margin-left: 10px;
+}
+
+#habilidades h3 {
+    margin-bottom: 10px;
 }
 
 #habilidades li {
@@ -63,11 +74,20 @@ li {
     padding: 10px;
 }
 
+.link-externos {
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+
+.link-externos h3 {
+    margin-bottom: 10px;
+}
+
 .button {
-    border: solid 1px #ccc;
-    background: white;
+    /* border: solid 1px #ccc; */
+    background: gray;
     font-size: 13px;
-    color: #555;
+    color: black;
     border-radius: 3px;
     line-height: 2;
     cursor: pointer;
@@ -78,6 +98,7 @@ li {
     margin-top: 0px;
     transition: all 1.2s ease;
     transform: scale(1);
+    margin-bottom: 3px;
 }
 
 .button:hover {
